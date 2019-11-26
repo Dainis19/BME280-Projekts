@@ -27,22 +27,22 @@ try:
          button_state = GPIO.input(button)
          if button_state == GPIO.LOW:
              GPIO.output(16,GPIO.HIGH)
-             print('poga ir nospiesta')
+             print ('poga ir nospiesta')
              time.sleep(4)
-             print('iesledzas poga 2')
+             print ('iesledzas poga 2')
              GPIO.output(20,GPIO.HIGH)
              time.sleep(4)
-             print('iesledzas poga 3')
+             print ('iesledzas poga 3')
              GPIO.output(21,GPIO.HIGH)
              time.sleep(1)
 
-print(data.id)
-print(data.timestamp)
-print(data.temperature)
-print(data.pressure)
-print(data.humidity)
+print (data.id)
+print (data.timestamp)
+print (data.temperature)
+print (data.pressure)
+print (data.humidity)
 
-print(data)
+print (data)
 
          else:
              GPIO.output(16,GPIO.LOW) 
