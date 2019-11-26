@@ -36,12 +36,12 @@ try:
              GPIO.output(21,GPIO.HIGH)
              time.sleep(1)
              print (data.id)
-print (data.timestamp)
-print (data.temperature)
-print (data.pressure)
-print (data.humidity)
+             print (data.timestamp)
+             print (data.temperature)
+             print (data.pressure)
+             print (data.humidity)
 
-print (data)
+             print (data)
 
 
          else:
