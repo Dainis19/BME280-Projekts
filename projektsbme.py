@@ -27,6 +27,7 @@ try:
     while True:
          button_state = GPIO.input(button)
          if button_state == GPIO.LOW:
+             time.sleep(1)
              GPIO.output(16,GPIO.HIGH)
              print ('poga ir nospiesta')
              time.sleep(2)
