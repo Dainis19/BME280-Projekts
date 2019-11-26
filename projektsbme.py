@@ -17,6 +17,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 button = 26
+
 GPIO.setup(button, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(16, GPIO.OUT)
 GPIO.setup(20, GPIO.OUT)
@@ -28,10 +29,10 @@ try:
          if button_state == GPIO.LOW:
              GPIO.output(16,GPIO.HIGH)
              print ('poga ir nospiesta')
-             time.sleep(4)
+             time.sleep(3)
              print ('iesledzas poga 2')
              GPIO.output(20,GPIO.HIGH)
-             time.sleep(4)
+             time.sleep(3)
              print ('iesledzas poga 3')
              GPIO.output(21,GPIO.HIGH)
              time.sleep(1)
