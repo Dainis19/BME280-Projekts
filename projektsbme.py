@@ -29,10 +29,10 @@ try:
          if button_state == GPIO.LOW:
              GPIO.output(16,GPIO.HIGH)
              print ('poga ir nospiesta')
-             time.sleep(3)
+             time.sleep(2)
              print ('iesledzas poga 2')
              GPIO.output(20,GPIO.HIGH)
-             time.sleep(3)
+             time.sleep(2)
              print ('iesledzas poga 3')
              GPIO.output(21,GPIO.HIGH)
              time.sleep(1)
