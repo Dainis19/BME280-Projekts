@@ -17,3 +17,8 @@
   
    ![](https://github.com/Dainis19/BME280-Projekts/blob/master/BME280.png)
    
+   
+   ## Shēma dzelžiem
+   
+   ![]()
+   
