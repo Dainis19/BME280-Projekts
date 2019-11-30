@@ -13,6 +13,6 @@
   6. Breadbords
   7. Poga
   
-  
+  ![## Blokshēma](C:\Users\daini\Pictures/BME280.png)
    
    
