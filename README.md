@@ -25,4 +25,4 @@
    
    ## Kods
    
-   
+   ![](https://github.com/Dainis19/BME280-Projekts/blob/master/projektsbme.py)
