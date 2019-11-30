@@ -12,4 +12,5 @@
    6.) Resistori (3)
    7.) Breadboards
   
+   #Blokshēma
    
