@@ -3,9 +3,16 @@
   
   Ideja ir nospiežot pogu ieslēdzas pirmā diode, pēc laika otrā un tad trešā pēc tam info nonāk uz BME sensoru, tad bme noslasa datus un izprintē visus parametrus.
   
+  ## Būs nepieciešams :
   
-  - George Washington
-- John Adams
-- Thomas Jefferson
+  1. Vadi (14)
+  2. Rezistori (3)
+  3. BME280 
+  4. Raspberry Pi 3B+
+  5. Diodes (3)
+  6. Breadbords
+  7. Poga
+  
+  
    
    
