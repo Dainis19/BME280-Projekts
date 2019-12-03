@@ -50,5 +50,5 @@ while True:
             GPIO.output(21,GPIO.LOW)
         
  except:
-     GPIO.cleanup()
-     break()
+    GPIO.cleanup()
+break()
