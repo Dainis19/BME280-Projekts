@@ -49,4 +49,6 @@ while True:
             GPIO.output(20,GPIO.LOW)
             GPIO.output(21,GPIO.LOW)
             GPIO.cleanup()
-            break
+        break
+    
+    
