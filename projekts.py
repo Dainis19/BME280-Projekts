@@ -47,6 +47,5 @@ try:
             GPIO.output(16,GPIO.LOW)
             GPIO.output(20,GPIO.LOW)
             GPIO.output(21,GPIO.LOW)
-
-    except
-        GPIO.cleanup()
+except:
+     GPIO.cleanup()
