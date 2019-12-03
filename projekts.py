@@ -23,8 +23,8 @@ GPIO.setup(21, GPIO.OUT)
 
 try:
     while True:
-        button_state=GPIO.input(button)
-        if button_state==GPIO.LOW:
+        button_state = GPIO.input(button)
+        if button_state == GPIO.LOW:
             time.sleep(1)
             GPIO.output(16,GPIO.HIGH)
             print('iesledzas diode')
