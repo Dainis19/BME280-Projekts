@@ -23,31 +23,29 @@ GPIO.setup(21, GPIO.OUT)
 
 
 while True:
-    try:
-        button_state = GPIO.input(button)
-        if button_state == GPIO.LOW:
-            time.sleep(1)
-            GPIO.output(16,GPIO.HIGH)
-            print('iesledzas diode')
-            time.sleep(2)
-            print('iesledzas 2. diode')
-            GPIO.output(20,GPIO.HIGH)
-            time.sleep(2)
-            print('iesledzas 3. diode')
-            GPIO.output(21,GPIO.HIGH)
-            time.sleep(1)
-            print(data.id)
-            print(data.timestamp)
-            print(data.temperature)
-            print(data.pressure)
-            print(data.humidity)
-
-            print(data)
-
-        else: 
-            GPIO.output(16,GPIO.LOW)
-            GPIO.output(20,GPIO.LOW)
-            GPIO.output(21,GPIO.LOW)       
+    button_state = GPIO.input(button)
+    if button_state == GPIO.LOW:
+        time.sleep(1)
+        GPIO.output(16,GPIO.HIGH)
+        print('iesledzas diode')
+        time.sleep(2)
+        print('iesledzas 2. diode')
+        GPIO.output(20,GPIO.HIGH)
+        time.sleep(2)
+        print('iesledzas 3. diode')
+        GPIO.output(21,GPIO.HIGH)
+        time.sleep(1)
+        print(data.id)
+        print(data.timestamp)
+        print(data.temperature)
+        print(data.pressure)
+        print(data.humidity)
+        print(data)
+    else: 
+        GPIO.output(16,GPIO.LOW)
+        GPIO.output(20,GPIO.LOW)
+        GPIO.output(21,GPIO.LOW)
+       
 except KeyboardInterupt:
     GPIO.cleanup()
 break()
