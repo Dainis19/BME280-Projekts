@@ -1,5 +1,5 @@
 import time
-import RPi.GPi as GPIO
+import RPi.GPIO as GPIO
 import smbus2
 import bme280
 
