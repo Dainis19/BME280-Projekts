@@ -47,8 +47,7 @@ while True:
         else: 
             GPIO.output(16,GPIO.LOW)
             GPIO.output(20,GPIO.LOW)
-            GPIO.output(21,GPIO.LOW)
-        
+            GPIO.output(21,GPIO.LOW)       
 except KeyboardInterupt:
     GPIO.cleanup()
 break()
