@@ -21,8 +21,9 @@ GPIO.setup(16, GPIO.OUT)
 GPIO.setup(20, GPIO.OUT)
 GPIO.setup(21, GPIO.OUT)
 
-try:
-    while True:
+
+while True:
+    try:
         button_state = GPIO.input(button)
         if button_state == GPIO.LOW:
             time.sleep(1)
@@ -47,6 +48,5 @@ try:
             GPIO.output(16,GPIO.LOW)
             GPIO.output(20,GPIO.LOW)
             GPIO.output(21,GPIO.LOW)
-except:
-     GPIO.cleanup()
-     break()
+            GPIO.cleanup()
+            break
