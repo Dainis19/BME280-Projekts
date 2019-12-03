@@ -5,7 +5,7 @@
   
   ## Būs nepieciešams :
   
-  1. Vadi (14)
+  1. Vadi (9)
   2. Rezistori (3)
   3. BME280 
   4. Raspberry Pi 3B+
