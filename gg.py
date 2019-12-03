@@ -50,3 +50,5 @@ while True:
             GPIO.output(21,GPIO.LOW)
             GPIO.cleanup()
         break
+    
+print(data)
