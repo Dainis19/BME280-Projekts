@@ -49,3 +49,4 @@ try:
             GPIO.output(21,GPIO.LOW)
 except:
      GPIO.cleanup()
+     break()
