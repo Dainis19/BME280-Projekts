@@ -47,5 +47,6 @@ while True:
         GPIO.output(21,GPIO.LOW)
        
 except KeyboardInterupt:
+    
+finally:
     GPIO.cleanup()
-break()
