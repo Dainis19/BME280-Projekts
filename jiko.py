@@ -13,7 +13,7 @@ bus = smbus2.SMBus(port)
 calibration_params = bme280.load_calibration_params(bus, address)
 
 data = bme280.sample(bus, address, calibration_params)
-#Definā uz kura GPIO pina ir pieslēgta poga
+#Definē uz kura GPIO pina ir pieslēgta poga
 button = 26
 #Definē pie kuriem GPIO piniem ir pieslēgtas diodes
 GPIO.setup(button, GPIO.IN, GPIO.PUD_UP)
@@ -23,7 +23,7 @@ GPIO.setup(21, GPIO.OUT)
 try:
     while True:
          button_state = GPIO.input(button)
-            #Kods pasaka: kad poga tiek atlaista tad notiek sekundes pauze un iesledzas diode, paralēli tam ieslēdzas diode.
+            #Kods pasaka: kad poga tiek atlaista tad notiek sekundes pauze un iesledzas diode
          if button_state == GPIO.LOW:
             time.sleep(1)
             GPIO.output(16,GPIO.HIGH)
